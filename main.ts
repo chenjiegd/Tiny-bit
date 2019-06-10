@@ -104,6 +104,7 @@ namespace Tinybit {
         Car_SpinRight = 7
     }
 
+    //小车RGB探照灯 红色  绿色  蓝色
     function setPwmRGB(red: number, green: number, blue: number): void {
 
         let buf = pins.createBuffer(4);
