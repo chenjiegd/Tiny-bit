@@ -288,8 +288,8 @@ namespace Tinybit {
         switch (index) {
             case CarState.Car_Run: Car_back(255, 255); break;
             case CarState.Car_Back: Car_run(255, 255); break;
-            case CarState.Car_Left: Car_right(255, 255); break;
-            case CarState.Car_Right: Car_left(255, 255); break;
+            case CarState.Car_Left: Car_left(255, 255); break;
+            case CarState.Car_Right: Car_right(255, 255); break;
             case CarState.Car_Stop: Car_stop(); break;
             case CarState.Car_SpinLeft: Car_spinright(255, 255); break;
             case CarState.Car_SpinRight: Car_spinleft(255, 255); break;
@@ -306,8 +306,8 @@ namespace Tinybit {
         switch (index) {
             case CarState.Car_Run: Car_back(speed, speed); break;
             case CarState.Car_Back: Car_run(speed, speed); break;
-            case CarState.Car_Left: Car_right(speed, speed); break;
-            case CarState.Car_Right: Car_left(speed, speed); break;
+            case CarState.Car_Left: Car_left(speed, speed); break;
+            case CarState.Car_Right: Car_right(speed, speed); break;
             case CarState.Car_Stop: Car_stop(); break;
             case CarState.Car_SpinLeft: Car_spinright(speed, speed); break;
             case CarState.Car_SpinRight: Car_spinleft(speed, speed); break;
@@ -324,8 +324,8 @@ namespace Tinybit {
         switch (index) {
             case CarState.Car_Run: Car_back(speed1, speed2); break;
             case CarState.Car_Back: Car_run(speed1, speed2); break;
-            case CarState.Car_Left: Car_right(speed1, speed2); break;
-            case CarState.Car_Right: Car_left(speed1, speed2); break;
+            case CarState.Car_Left: Car_left(speed1, speed2); break;
+            case CarState.Car_Right: Car_right(speed1, speed2); break;
             case CarState.Car_Stop: Car_stop(); break;
             case CarState.Car_SpinLeft: Car_spinright(speed1, speed2); break;
             case CarState.Car_SpinRight: Car_spinleft(speed1, speed2); break;
